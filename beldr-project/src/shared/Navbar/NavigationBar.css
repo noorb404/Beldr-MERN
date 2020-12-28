@@ -1,0 +1,124 @@
+a:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+a{
+    font-family: Arial;
+    border: 0;
+}
+#signUp:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+#signUp{
+    background-color: #f57706;
+    border: 0;
+    color: white;
+    font-weight: 600;
+}
+#signUp:hover{
+  color: black;
+}
+
+
+#Beldr{
+    color: #f57706;
+    font-weight: bold;
+}
+#Beldr:hover{
+    color: #ff9d48;
+}
+
+#signIn:hover{
+    color: black;
+  }
+#signIn{
+    background-color: white;
+    color: #f57706;
+    font-weight: 600;
+}
+#signIn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#Find{
+    color: black;
+    font-weight: 600;
+}
+
+#Find:hover{
+    color: #f57706;
+}
+#Home{
+    color: black;
+    font-weight: 600;
+}
+#Home:hover{
+    color:#f57706;
+}
+#Share{
+    color: black;
+    font-weight: 600;
+}
+#Share:hover{
+    color:#f57706;
+}
+#User{
+    color: black;
+    font-weight: 600;
+}
+#User:hover{
+    color: #f57706;
+}
+#Logout{
+    color: #f57706;
+    font-weight: 600;
+}
+#Logout:hover{
+  color: black;
+}
+
+input{
+    height: 30px;
+}
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.dropdown{
+    cursor: pointer;
+}
+.dropdown-menu :hover{
+    color:  #f57706;
+    background-color: white;
+}
+#SearchDrop{
+    width: 100%;
+    outline: none !important;
+    color: #f57706;
+    box-shadow: none !important;
+    border: none;
+
+}
+
+  
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(245, 119, 6, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+@media (max-width:768px){
+    #signIn{
+        background-color: white;
+        border: 1px solid #f57706;
+        color: #f57706;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    #signUp:focus{
+        color:black ;
+    }
+}

@@ -1,0 +1,111 @@
+.user-profile__image {
+  width: 7rem;
+  height: 7rem;
+  margin: auto;
+
+}
+.user-profile__info h2 {
+  font-size: 3.0rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #f57706;
+}
+.user-profile__info h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  margin: 0rem 0rem 0rem 0;
+  font-weight: normal;
+  color: #000000;
+}
+
+
+
+.user-profile__content {
+  padding: 0;
+}
+.user-profile:hover h2,
+.user-profile:active h2,
+.user-profile:hover h3,
+.user-profile:active h3 {
+  color: #292929;
+}
+.user-profile a:hover,
+.user-profile a:active {
+  background: #f57706;
+}
+
+.user-profile a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    background: #292929;
+}
+
+
+.user-profile__info h3 {
+  font-size: 1.5rem;
+}
+@media(max-width:991px){
+  .user-profile__image {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .user-profile__info h2 {
+    font-size: 2.5rem;
+  } 
+  .user-profile__info h3 {
+    font-size: 1.5rem;
+  } 
+}
+
+@media(max-width:768px){
+  .user-profile__image {
+    width: 4.5rem;
+    height: 4.5rem;
+    
+  }
+
+  .user-profile__info h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: normal;
+    color: #f57706;
+  } 
+  .user-profile__info h3 {
+    font-size: 1.2rem;
+  } 
+
+}
+
+@media(max-width:500px){
+  .user-profile__image {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 1rem;
+  }
+  #h5css{
+    font-size: x-small !important;
+    padding-top: 10px !important; 
+  }
+  .user-profile {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 16rem;
+  }
+  .user-profile__info h2 {
+    font-size: 1.6rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: normal;
+    color: #f57706;
+  } 
+  .user-profile__info h3 {
+    font-size: 1rem;
+  } 
+}
+ 
